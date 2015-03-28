@@ -25,5 +25,7 @@ class PersonalController extends BaseController{
     
     public function getEliminar(){
         echo "Estoy eliminando";
+        
+        
     }
 }
