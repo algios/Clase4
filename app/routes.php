@@ -12,10 +12,11 @@ Route::get('/prueba', function()
 	return View::make('prueba');
 });
 
-Route::get('/test', function()
+Route::get('/algios', function()
 {
  
-	return View::make("ejemplo");
+	return View::make("perfil.perfil")
+            ->with("nombre","Alejandro");
 });
 
 

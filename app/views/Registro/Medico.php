@@ -1,1 +1,0 @@
-Estoy registrando un medico
